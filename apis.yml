@@ -1,8 +1,14 @@
 aid: chemify
 name: Chemify
-description: Chemify is a company surfaced as a portfolio company of dcvc, wing-venture-capital and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Chemify is a Glasgow-based programmable-chemistry company, spun out of the University of
+  Glasgow in 2022 by chemist Lee Cronin, that digitizes the creation of molecules through what it calls
+  "Chemputation." The platform fuses AI/ML-driven molecular design, a universal chemical programming
+  language, and robotic synthesis so pharmaceutical, biotech, and industrial partners can move from a
+  novel concept to a makeable compound end to end. In 2025 Chemify opened its first Chemifarm, a fully
+  automated chemistry facility in Glasgow's Maryhill district that pairs its molecular-design engine
+  with industrial-scale robotic synthesis, and closed a $50M Series B co-led by Wing Venture Capital and
+  Insight Partners, with backing from DCVC. Chemify does not currently publish a public developer API,
+  documentation, or SDKs; engagement runs through its partner program.
 url: https://raw.githubusercontent.com/api-evangelist/chemify/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +17,32 @@ x-backed-by:
 - wing-venture-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/68e42181973c7c8a774a8be9/6905222fee6fed8a244a8a7f_webclip.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Chemistry
+- Programmable Chemistry
+- Robotics
+- Artificial Intelligence
+- Machine Learning
+- Drug Discovery
+- Materials Science
+- Automation
+- Molecular Design
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +51,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.chemify.io/
+  url: https://www.chemify.io/
+- type: Blog
+  url: https://www.chemify.io/news-and-articles
+- type: Support
+  url: https://www.chemify.io/contact
+- type: TermsOfService
+  url: https://www.chemify.io/terms
+- type: PrivacyPolicy
+  url: https://www.chemify.io/privacy-policy
+- type: DomainSecurity
+  url: security/chemify-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
